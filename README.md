@@ -2,4 +2,4 @@
 
 > A user can view available schedules and book their seats.
 
-![Homepage](home-img.png)
+![Homepage](home-img.PNG)
