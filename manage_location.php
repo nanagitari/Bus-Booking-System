@@ -20,7 +20,7 @@ if(isset($_GET['id']) && !empty($_GET['id']) ){
 				<input type="text" class="form-control" id="city" name="city" required="" value="<?php echo isset($meta['city']) ? $meta['city'] : '' ?>">
 			</div>
 			<div class="form-group mb-2">
-				<label for="state" class="control-label">Province</label>
+				<label for="state" class="control-label">Location</label>
 				<input type="text" class="form-control" id="state" name="state" required="" value="<?php echo isset($meta['state']) ? $meta['state'] : '' ?>">
 			</div>
 		</div>

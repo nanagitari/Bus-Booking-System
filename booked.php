@@ -24,8 +24,6 @@
 									<th class="text-center">Ref. No.</th>
 									<th class="text-center">Name</th>
 									<th class="text-center">Qty</th>
-									<th class="text-center">Amount</th>
-									<th class="text-center">Status</th>
 									<th class="text-center">Action</th>
 								</tr>
 							</thead>
@@ -67,8 +65,6 @@
 									tr.append('<td class="">'+resp[k].ref_no+'</td>')
 									tr.append('<td class="">'+resp[k].name+'</td>')
 									tr.append('<td class="">'+resp[k].qty+'</td>')
-									tr.append('<td class="">'+resp[k].amount+'</td>')
-									tr.append('<td class="">'+(resp[k].status == 1 ? 'Paid' :'Unpaid')+'</td>')
 									
 										tr.append('<td><center><button class="btn btn-sm btn-primary mr-2 text-white edit_booked" data-id="'+resp[k].schedule_id+'" data-bid="'+resp[k].id+'"><strong>Edit</strong></button></center></td>')
 									$('#booked-field tbody').append(tr)

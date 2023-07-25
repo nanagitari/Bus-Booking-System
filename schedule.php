@@ -21,8 +21,7 @@
 								<col width="5%">
 								<col width="10%">
 								<col width="15%">
-								<col width="20%">
-								<col width="10%">
+								<col width="30%">
 								<col width="10%">
 								<col width="10%">
 								<col width="10%">
@@ -37,7 +36,6 @@
 									<th class="text-center">Departure</th>
 									<th class="text-center">ETA</th>
 									<th class="text-center">Availability</th>
-									<th class="text-center">Price</th>
 									<th class="text-center">Action</th>
 								</tr>
 							</thead>
@@ -82,7 +80,7 @@
 									tr.append('<td>'+resp[k].time+'</td>')
 									tr.append('<td>'+resp[k].eta+'</td>')
 									tr.append('<td>'+resp[k].availability+'</td>')
-									tr.append('<td>'+resp[k].price+'</td>')
+									// tr.append('<td>'+resp[k].price+'</td>')
 									if('<?php echo isset($_SESSION['login_id']) ? 1 : 0 ?>' == 1){
 
 									tr.append('<td><center><button class="btn btn-sm btn-primary edit_schedule mr-2" data-id="'+resp[k].id+'">Edit</button><button class="btn btn-sm btn-danger remove_schedule" data-id="'+resp[k].id+'">Delete</button></center></td>')

@@ -24,7 +24,7 @@
 									<th class="text-center">#</th>
 									<th class="text-center">Terminal</th>
 									<th class="text-center">City</th>
-									<th class="text-center">Province/ State</th>
+									<th class="text-center">Location/ Area</th>
 									<th class="text-center">Action</th>
 								</tr>
 							</thead>

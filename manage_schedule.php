@@ -55,10 +55,6 @@ $location = $conn->query("SELECT id,Concat(terminal_name,', ',city,', ',state) a
 				<label for="availability" class="control-label">Availabilty</label>
 				<input type="number" min="0" max="30" maxlength="2" class="form-control text-right" id="availability" name="availability" value="<?php echo isset($meta['availability']) ? $meta['availability'] : '' ?>">
 			</div>
-			<div class="form-group mb-2">
-				<label for="price" class="control-label">Price</label>
-				<input type="number" maxlength="20" class="form-control text-right" id="price" name="price" value="<?php echo isset($meta['price']) ? $meta['price'] : '' ?>">
-			</div>
 		</div>
 	</form>
 </div>
